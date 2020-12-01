@@ -9,8 +9,6 @@ element.height = height
 
 const position = Array(300).join(0).split('')
 
-// console.log(position)
-
 const initMatrix = () => {
   
   ctx.fillStyle = 'rgba(0,25,2,0.15)'
@@ -32,5 +30,3 @@ const initMatrix = () => {
 }
 
 setInterval(initMatrix, 50)
-// initMatrix()
-
